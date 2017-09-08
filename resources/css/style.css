@@ -1,3 +1,39 @@
 div {
   border: 1px solid red;
 }
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: helvetica;
+  color: white;
+}
+
+.logo {
+  width: 960px;
+  background-color: black;
+  font-size: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.logo .container img {
+  height: 1.5rem;
+}
+
+
+
+
+
+
+
+footer {
+  height: 5rem;
+  background-color: black;
+  text-align: left;
+  width: 960px;
+}
