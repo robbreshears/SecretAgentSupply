@@ -12,7 +12,7 @@ body {
 }
 
 .logo {
-  width: 960px;
+  width: 100%;
   background-color: black;
   font-size: 1rem;
   padding-top: 0.66rem;
@@ -25,6 +25,32 @@ body {
   height: 1.5rem;
 }
 
+.main-banner {
+  display: flex;
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-size: cover;
+  height: 25rem;
+
+}
+
+nav {
+  background-color: firebrick;
+}
+
+.productpic {
+  border: 1px black solid;
+}
+
+.description {
+  background-color: black;
+  color: white;
+}
+
+.location .hours {
+  background-color: black;
+  width: 35%;
+}
+
 
 
 
@@ -35,5 +61,5 @@ footer {
   height: 5rem;
   background-color: black;
   text-align: left;
-  width: 960px;
+  width: 100%;
 }
